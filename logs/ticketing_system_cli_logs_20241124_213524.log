@@ -1,0 +1,10 @@
+Nov 24, 2024 9:35:24 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 24, 2024 9:35:24 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Nov 24, 2024 9:35:29 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Nov 24, 2024 9:35:29 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Nov 24, 2024 9:35:29 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 1

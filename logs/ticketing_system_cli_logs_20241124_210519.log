@@ -1,0 +1,22 @@
+Nov 24, 2024 9:05:19 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 24, 2024 9:05:19 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Nov 24, 2024 9:08:44 PM SystemConfiguration getValidInput
+WARNING: Invalid input! Please enter a valid integer.
+Nov 24, 2024 9:08:47 PM SystemConfiguration getValidInput
+WARNING: Invalid input. Expected range: 1 - 100
+Nov 24, 2024 9:09:32 PM SystemConfiguration getValidInput
+WARNING: Invalid input. Expected range: 1 - 10
+Nov 24, 2024 9:09:48 PM SystemConfiguration getValidInput
+WARNING: Invalid input! Please enter a valid integer.
+Nov 24, 2024 9:09:52 PM SystemConfiguration getValidInput
+WARNING: Invalid input. Expected range: 1 - 2147483647
+Nov 24, 2024 9:16:12 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Nov 24, 2024 9:16:12 PM SystemConfiguration initializeConfiguration
+INFO: Configuration saved to the database.
+Nov 24, 2024 9:16:12 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Nov 24, 2024 9:16:12 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 20
