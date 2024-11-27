@@ -3,6 +3,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
@@ -20,7 +22,7 @@ public class LoggerConfiguration {
 
         try {
             // Generate a timestamped log file name
-            String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+            String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
             String logFileName = LOG_DIR + "/ticketing_system_cli_logs_" + timestamp + ".log";
 
             // Set up the file handler for logging

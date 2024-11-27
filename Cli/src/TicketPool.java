@@ -33,7 +33,7 @@ public class TicketPool extends LoggerConfiguration {
 
         tickets.add(ticket);
         totalTicketsProduced++;
-        System.out.println("Vendor " + vendorId + " added ticket ID " + ticket.getId());
+//        System.out.println("Vendor " + vendorId + " added ticket ID " + ticket.getId());
         logger.info("Vendor " + vendorId + " added ticket ID " + ticket.getId());
 
 //        updateTicketStatus(); // Update the status table

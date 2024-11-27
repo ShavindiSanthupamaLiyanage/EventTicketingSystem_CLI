@@ -1,0 +1,6 @@
+Nov 26, 2024 7:18:13 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 26, 2024 7:18:22 PM TicketingSystem main
+WARNING: No existing configuration found or failed to load. Redirecting to reconfiguration...
+Nov 26, 2024 7:18:22 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...

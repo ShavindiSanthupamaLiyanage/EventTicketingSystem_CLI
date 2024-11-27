@@ -1,0 +1,48 @@
+Nov 26, 2024 8:02:42 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 26, 2024 8:02:45 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Nov 26, 2024 8:02:48 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Nov 26, 2024 8:02:49 PM SystemConfiguration initializeConfiguration
+INFO: Configuration saved to the database.
+Nov 26, 2024 8:02:49 PM SystemConfiguration saveToFile
+INFO: Configuration saved to file: system_configuration.json
+Nov 26, 2024 8:02:49 PM SystemConfiguration initializeConfiguration
+INFO: System configuration serialized to file successfully.
+Nov 26, 2024 8:02:49 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 1
+Nov 26, 2024 8:02:50 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:02:50 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:02:50 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:02:50 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 8:02:50 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=1}
+Nov 26, 2024 8:02:50 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 1
+Nov 26, 2024 8:02:50 PM Vendor run
+INFO: Vendor 1 added ticket: 1
+Nov 26, 2024 8:02:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 1
+Nov 26, 2024 8:02:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 1
+Nov 26, 2024 8:02:50 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:02:52 PM TicketingSystem controlSystem
+INFO: Exiting the Ticketing System CLI
+Nov 26, 2024 8:02:52 PM TicketPool retrieveTicket
+SEVERE: Customer was interrupted while waiting for tickets.
+Nov 26, 2024 8:02:52 PM Customer run
+INFO: Customer 1 found no tickets available.
+Nov 26, 2024 8:02:52 PM Customer run
+WARNING: Customer 1 was interrupted.
+Nov 26, 2024 8:02:52 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Nov 26, 2024 8:02:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:02:52 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: EXIT

@@ -14,11 +14,13 @@ CREATE TABLE SystemConfiguration (
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+--status
 CREATE TABLE TicketStatus (
     id INT AUTO_INCREMENT PRIMARY KEY,
     totalTicketsReleased INT NOT NULL,
     totalTicketsPurchased INT NOT NULL,
     totalTicketsRemaining INT NOT NULL,
-    lastUpdated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    lastUpdated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    systemStatus STRING NOT NULL
 );
 

@@ -1,0 +1,64 @@
+Nov 26, 2024 8:32:19 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 26, 2024 8:32:21 PM SystemConfiguration loadFromFile
+INFO: Configuration loaded from file: system_configuration.json
+Nov 26, 2024 8:32:21 PM TicketingSystem main
+INFO: Loaded configuration from file successfully.
+Nov 26, 2024 8:32:21 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 1
+Nov 26, 2024 8:59:50 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:59:50 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:59:50 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=1}
+Nov 26, 2024 8:59:50 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:59:50 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 1
+Nov 26, 2024 8:59:50 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 8:59:50 PM Vendor run
+INFO: Vendor 1 added ticket: 1
+Nov 26, 2024 8:59:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 1
+Nov 26, 2024 8:59:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 1
+Nov 26, 2024 8:59:50 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:59:51 PM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=1}
+Nov 26, 2024 8:59:51 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 2
+Nov 26, 2024 8:59:51 PM Vendor run
+INFO: Vendor 1 added ticket: 2
+Nov 26, 2024 8:59:51 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 2
+Nov 26, 2024 8:59:51 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 2
+Nov 26, 2024 8:59:53 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:59:55 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:59:55 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:59:55 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 9:00:00 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 9:00:00 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 9:00:00 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 9:00:02 PM TicketingSystem controlSystem
+INFO: Exiting the Ticketing System CLI
+Nov 26, 2024 9:00:02 PM TicketPool retrieveTicket
+SEVERE: Customer was interrupted while waiting for tickets.
+Nov 26, 2024 9:00:02 PM Customer run
+INFO: Customer 1 found no tickets available.
+Nov 26, 2024 9:00:02 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Nov 26, 2024 9:00:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 9:00:03 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: EXIT

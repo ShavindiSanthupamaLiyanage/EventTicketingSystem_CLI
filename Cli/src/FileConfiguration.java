@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class FileConfiguration {
+public class FileConfiguration extends LoggerConfiguration{
 
     // Folder for configuration files
     private static final String CONFIG_DIR = "configurations";
@@ -28,7 +28,7 @@ public class FileConfiguration {
             writer.newLine();
             writer.write("-----------------------------");
             writer.newLine();
-            writer.write("Total Tickets: " + config.getTotalTickets());
+            writer.write("Total No.of Tickets Per Vendor: " + config.getTotalTickets());
             writer.newLine();
             writer.write("Ticket Release Rate: " + config.getTicketReleaseRate());
             writer.newLine();
@@ -41,9 +41,11 @@ public class FileConfiguration {
             writer.write("Number of Customers: " + config.getNumCustomers());
             writer.newLine();
 
-            System.out.println("Configuration saved to file: " + fileName);
+            logger.info("Configuration saved to file: " + fileName);
+
         } catch (IOException e) {
-            System.err.println("Error saving configuration to file: " + e.getMessage());
+            System.err.println("Error saving configuration to file");
+            logger.warning("Error saving configuration to file: " + e.getMessage());
         }
     }
 
@@ -55,7 +57,8 @@ public class FileConfiguration {
                 Files.createDirectories(path);
                 System.out.println("Directory created: " + directoryName);
             } catch (IOException e) {
-                System.err.println("Error creating directory: " + directoryName + ". " + e.getMessage());
+                System.err.println("Error creating directory");
+                logger.warning("Error creating directory: " + directoryName + ". " + e.getMessage());
             }
         }
     }

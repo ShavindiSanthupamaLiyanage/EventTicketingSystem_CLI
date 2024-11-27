@@ -1,0 +1,258 @@
+Nov 26, 2024 8:20:20 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 26, 2024 8:20:39 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Nov 26, 2024 8:20:44 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Nov 26, 2024 8:20:45 PM SystemConfiguration initializeConfiguration
+INFO: Configuration saved to the database.
+Nov 26, 2024 8:20:45 PM SystemConfiguration saveToFile
+INFO: Configuration saved to file: system_configuration.json
+Nov 26, 2024 8:20:45 PM SystemConfiguration initializeConfiguration
+INFO: System configuration serialized to file successfully.
+Nov 26, 2024 8:20:45 PM FileConfiguration saveConfigurationToFile
+INFO: Configuration saved to file: configurations/System_Configuration_2024-11-26_20-20-45.txt
+Nov 26, 2024 8:20:45 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Nov 26, 2024 8:20:45 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 10
+Nov 26, 2024 8:20:46 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:20:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:20:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:20:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 1
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 1
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 1
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 2
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 2
+Nov 26, 2024 8:20:46 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 1
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=3, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 2
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 3
+Nov 26, 2024 8:20:46 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 2
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 3
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=4, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 4
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 4
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=5, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 5
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 5
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=6, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 6
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 6
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=7, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 7
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 7
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=8, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 8
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 8
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=9, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 9
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 9
+Nov 26, 2024 8:20:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=10, vendorId=1}
+Nov 26, 2024 8:20:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 10
+Nov 26, 2024 8:20:46 PM Vendor run
+INFO: Vendor 1 added ticket: 10
+Nov 26, 2024 8:20:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 3
+Nov 26, 2024 8:20:48 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 3
+Nov 26, 2024 8:20:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 4
+Nov 26, 2024 8:20:48 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 4
+Nov 26, 2024 8:20:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 5
+Nov 26, 2024 8:20:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 5
+Nov 26, 2024 8:20:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 6
+Nov 26, 2024 8:20:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 6
+Nov 26, 2024 8:20:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 4
+Nov 26, 2024 8:20:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 4
+Nov 26, 2024 8:20:52 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 7
+Nov 26, 2024 8:20:52 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 7
+Nov 26, 2024 8:20:52 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 8
+Nov 26, 2024 8:20:52 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 8
+Nov 26, 2024 8:20:54 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 9
+Nov 26, 2024 8:20:54 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 9
+Nov 26, 2024 8:20:54 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 10
+Nov 26, 2024 8:20:54 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 10
+Nov 26, 2024 8:20:55 PM Customer run
+WARNING: Customer 1 was interrupted.
+Nov 26, 2024 8:20:55 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Nov 26, 2024 8:20:55 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:20:55 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: STOP
+Nov 26, 2024 8:20:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:20:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:20:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 8:21:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 26, 2024 8:21:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 26, 2024 8:21:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=11, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 11
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 11
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=12, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 1
+Nov 26, 2024 8:21:05 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 1
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 12
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 12
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=13, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 13
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 13
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=14, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 11
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 14
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 14
+Nov 26, 2024 8:21:05 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 11
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=15, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 12
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 15
+Nov 26, 2024 8:21:05 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 12
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 15
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=16, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 16
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 16
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=17, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 17
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 17
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=18, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 18
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 18
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=19, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 19
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 19
+Nov 26, 2024 8:21:05 PM Ticket <init>
+INFO: Ticket created: Ticket{id=20, vendorId=1}
+Nov 26, 2024 8:21:05 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 20
+Nov 26, 2024 8:21:05 PM Vendor run
+INFO: Vendor 1 added ticket: 20
+Nov 26, 2024 8:21:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 8
+Nov 26, 2024 8:21:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 8
+Nov 26, 2024 8:21:07 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 13
+Nov 26, 2024 8:21:07 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 13
+Nov 26, 2024 8:21:07 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 14
+Nov 26, 2024 8:21:07 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 14
+Nov 26, 2024 8:21:08 PM Customer run
+WARNING: Customer 1 was interrupted.
+Nov 26, 2024 8:21:08 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Nov 26, 2024 8:21:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 6
+Nov 26, 2024 8:21:08 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: STOP
+Nov 26, 2024 8:21:10 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 6
+Nov 26, 2024 8:21:10 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 6
+Nov 26, 2024 8:21:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 6
+Nov 26, 2024 8:21:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 6
+Nov 26, 2024 8:21:13 PM TicketingSystem controlSystem
+INFO: Exiting the Ticketing System CLI
+Nov 26, 2024 8:21:14 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 6
+Nov 26, 2024 8:21:14 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: EXIT

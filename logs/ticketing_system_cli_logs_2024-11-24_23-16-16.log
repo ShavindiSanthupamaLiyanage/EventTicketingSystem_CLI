@@ -1,0 +1,1636 @@
+Nov 24, 2024 11:16:16 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Nov 24, 2024 11:16:16 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Nov 24, 2024 11:16:39 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Nov 24, 2024 11:16:39 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Nov 24, 2024 11:16:39 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 10
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 24, 2024 11:16:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=1}
+Nov 24, 2024 11:16:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=2}
+Nov 24, 2024 11:16:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 24, 2024 11:16:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:16:46 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 2
+Nov 24, 2024 11:16:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:16:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 1
+Nov 24, 2024 11:16:46 PM Vendor run
+INFO: Vendor 2 added ticket: 2
+Nov 24, 2024 11:16:46 PM Vendor run
+INFO: Vendor 1 added ticket: 1
+Nov 24, 2024 11:16:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=4, vendorId=1}
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 2
+Nov 24, 2024 11:16:46 PM Ticket <init>
+INFO: Ticket created: Ticket{id=3, vendorId=2}
+Nov 24, 2024 11:16:46 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 2
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 1
+Nov 24, 2024 11:16:46 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 1
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Nov 24, 2024 11:16:46 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 3
+Nov 24, 2024 11:16:46 PM Vendor run
+INFO: Vendor 2 added ticket: 3
+Nov 24, 2024 11:16:46 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 4
+Nov 24, 2024 11:16:46 PM Vendor run
+INFO: Vendor 1 added ticket: 4
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 3
+Nov 24, 2024 11:16:46 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 3
+Nov 24, 2024 11:16:46 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 4
+Nov 24, 2024 11:16:46 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 4
+Nov 24, 2024 11:16:47 PM Ticket <init>
+INFO: Ticket created: Ticket{id=6, vendorId=2}
+Nov 24, 2024 11:16:47 PM Ticket <init>
+INFO: Ticket created: Ticket{id=5, vendorId=1}
+Nov 24, 2024 11:16:47 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 6
+Nov 24, 2024 11:16:47 PM Vendor run
+INFO: Vendor 2 added ticket: 6
+Nov 24, 2024 11:16:47 PM Ticket <init>
+INFO: Ticket created: Ticket{id=7, vendorId=2}
+Nov 24, 2024 11:16:47 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 5
+Nov 24, 2024 11:16:47 PM Vendor run
+INFO: Vendor 1 added ticket: 5
+Nov 24, 2024 11:16:47 PM Ticket <init>
+INFO: Ticket created: Ticket{id=8, vendorId=1}
+Nov 24, 2024 11:16:47 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 7
+Nov 24, 2024 11:16:47 PM Vendor run
+INFO: Vendor 2 added ticket: 7
+Nov 24, 2024 11:16:47 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 8
+Nov 24, 2024 11:16:47 PM Vendor run
+INFO: Vendor 1 added ticket: 8
+Nov 24, 2024 11:16:48 PM Ticket <init>
+INFO: Ticket created: Ticket{id=9, vendorId=2}
+Nov 24, 2024 11:16:48 PM Ticket <init>
+INFO: Ticket created: Ticket{id=10, vendorId=1}
+Nov 24, 2024 11:16:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 6
+Nov 24, 2024 11:16:48 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 6
+Nov 24, 2024 11:16:48 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 10
+Nov 24, 2024 11:16:48 PM Vendor run
+INFO: Vendor 1 added ticket: 10
+Nov 24, 2024 11:16:48 PM Ticket <init>
+INFO: Ticket created: Ticket{id=11, vendorId=1}
+Nov 24, 2024 11:16:48 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 9
+Nov 24, 2024 11:16:48 PM Vendor run
+INFO: Vendor 2 added ticket: 9
+Nov 24, 2024 11:16:48 PM Ticket <init>
+INFO: Ticket created: Ticket{id=12, vendorId=2}
+Nov 24, 2024 11:16:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 5
+Nov 24, 2024 11:16:48 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 5
+Nov 24, 2024 11:16:48 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 12
+Nov 24, 2024 11:16:48 PM Vendor run
+INFO: Vendor 2 added ticket: 12
+Nov 24, 2024 11:16:48 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 11
+Nov 24, 2024 11:16:48 PM Vendor run
+INFO: Vendor 1 added ticket: 11
+Nov 24, 2024 11:16:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 7
+Nov 24, 2024 11:16:48 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 7
+Nov 24, 2024 11:16:48 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 8
+Nov 24, 2024 11:16:48 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 8
+Nov 24, 2024 11:16:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 10
+Nov 24, 2024 11:16:50 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 10
+Nov 24, 2024 11:16:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 9
+Nov 24, 2024 11:16:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 9
+Nov 24, 2024 11:16:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 12
+Nov 24, 2024 11:16:50 PM Customer run
+INFO: Customer 2 successfully purchased ticket ID 12
+Nov 24, 2024 11:16:50 PM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 11
+Nov 24, 2024 11:16:50 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 11
+Nov 24, 2024 11:16:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:16:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:16:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:16:51 PM Customer run
+WARNING: Customer 2 was interrupted.
+Nov 24, 2024 11:16:51 PM Customer run
+WARNING: Customer 1 was interrupted.
+Nov 24, 2024 11:16:51 PM Customer run
+INFO: Customer 2 has finished all attempts.
+Nov 24, 2024 11:16:51 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Nov 24, 2024 11:16:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:16:51 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: STOP
+Nov 24, 2024 11:16:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:16:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:16:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:16 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:16 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:16 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:21 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:21 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:21 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:26 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:26 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:26 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:31 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:31 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:31 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:36 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:36 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:36 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:41 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:41 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:41 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:17:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:17:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:17:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:16 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:16 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:16 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:21 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:21 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:21 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:26 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:26 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:26 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:31 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:31 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:31 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:36 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:36 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:36 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:41 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:41 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:41 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:18:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:18:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:18:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:16 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:16 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:16 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:21 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:21 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:21 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:26 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:26 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:26 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:31 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:31 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:31 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:36 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:36 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:36 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:41 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:41 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:41 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:19:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:19:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:19:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:16 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:16 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:16 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:21 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:21 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:21 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:26 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:26 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:26 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:31 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:31 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:31 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:36 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:36 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:36 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:41 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:41 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:41 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:20:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:20:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:20:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:16 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:16 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:16 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:21 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:21 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:21 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:26 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:26 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:26 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:31 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:31 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:31 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:36 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:36 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:36 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:41 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:41 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:41 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:46 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:46 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:46 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:51 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:51 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:51 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:21:56 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:21:56 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:21:56 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:01 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:01 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:01 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:06 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:06 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:11 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:11 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:11 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:22:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:22:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:22:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:23:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:23:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:23:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:24:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:24:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:24:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:25:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:25:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:25:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:26:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:26:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:26:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:27:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:27:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:27:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:28:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:28:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:28:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:29:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:29:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:29:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:52 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:52 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:52 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:30:57 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:30:57 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:30:57 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:02 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:02 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:02 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:07 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:07 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:07 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:12 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:12 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:17 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:17 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:17 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:22 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:22 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:22 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:27 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:27 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:27 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:32 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:32 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:32 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:37 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:37 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:37 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:42 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:42 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:42 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:47 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:47 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:47 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:31:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:31:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:31:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:28 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:28 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:28 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:33 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:33 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:33 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:38 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:38 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:38 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:43 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:43 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:43 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:48 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:48 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:48 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:32:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:32:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:32:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:28 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:28 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:28 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:33 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:33 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:33 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:38 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:38 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:38 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:43 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:43 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:43 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:48 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:48 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:48 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:33:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:33:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:33:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:28 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:28 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:28 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:33 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:33 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:33 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:38 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:38 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:38 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:43 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:43 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:43 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:48 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:48 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:48 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:34:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:34:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:34:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:28 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:28 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:28 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:33 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:33 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:33 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:38 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:38 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:38 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:43 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:43 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:43 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:48 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:48 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:48 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:35:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:35:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:35:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:28 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:28 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:28 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:33 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:33 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:33 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:38 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:38 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:38 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:43 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:43 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:43 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:48 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:48 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:48 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:53 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:53 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:53 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:36:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:36:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:36:58 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:37:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:37:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:37:03 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:37:08 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:37:08 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:37:08 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:37:13 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:37:13 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:37:13 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:37:18 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:37:18 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:37:18 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Nov 24, 2024 11:37:23 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Nov 24, 2024 11:37:23 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Nov 24, 2024 11:37:23 PM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
