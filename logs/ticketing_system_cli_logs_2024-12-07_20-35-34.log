@@ -1,0 +1,62 @@
+Dec 07, 2024 8:35:34 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Dec 07, 2024 8:36:04 PM SystemConfiguration loadFromFile
+INFO: Configuration loaded from file: system_configuration.json
+Dec 07, 2024 8:36:04 PM TicketingSystem main
+INFO: Loaded configuration from file successfully.
+Dec 07, 2024 8:36:04 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 5
+Dec 07, 2024 8:36:09 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 8:36:09 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Dec 07, 2024 8:36:09 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=1}
+Dec 07, 2024 8:36:09 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Dec 07, 2024 8:36:09 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 1
+Dec 07, 2024 8:36:09 PM TicketingSystem monitorTicketingOperations
+WARNING: Ticket pool is empty!
+Dec 07, 2024 8:36:09 PM TicketPool retrieveTicket
+INFO: Customer 1 retrieved ticket ID 1
+Dec 07, 2024 8:36:09 PM Vendor run
+INFO: Vendor 1 added ticket: 1
+Dec 07, 2024 8:36:09 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 1
+Dec 07, 2024 8:36:09 PM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 8:36:09 PM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=1}
+Dec 07, 2024 8:36:09 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 2
+Dec 07, 2024 8:36:09 PM Vendor run
+INFO: Vendor 1 added ticket: 2
+Dec 07, 2024 8:36:09 PM TicketPool retrieveTicket
+INFO: Customer 1 retrieved ticket ID 2
+Dec 07, 2024 8:36:09 PM Customer run
+INFO: Customer 1 successfully purchased ticket ID 2
+Dec 07, 2024 8:36:10 PM Ticket <init>
+INFO: Ticket created: Ticket{id=3, vendorId=1}
+Dec 07, 2024 8:36:10 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 3
+Dec 07, 2024 8:36:10 PM Vendor run
+INFO: Vendor 1 added ticket: 3
+Dec 07, 2024 8:36:10 PM Ticket <init>
+INFO: Ticket created: Ticket{id=4, vendorId=1}
+Dec 07, 2024 8:36:10 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 4
+Dec 07, 2024 8:36:10 PM Vendor run
+INFO: Vendor 1 added ticket: 4
+Dec 07, 2024 8:36:11 PM TicketingSystem controlSystem
+INFO: Exiting the Ticketing System CLI
+Dec 07, 2024 8:36:11 PM Vendor run
+WARNING: Vendor 1 was interrupted.
+Dec 07, 2024 8:36:11 PM Customer run
+WARNING: Customer 1 was interrupted.
+Dec 07, 2024 8:36:11 PM Customer run
+INFO: Customer 1 has finished all attempts.
+Dec 07, 2024 8:36:12 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 2
+Dec 07, 2024 8:36:12 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: EXIT

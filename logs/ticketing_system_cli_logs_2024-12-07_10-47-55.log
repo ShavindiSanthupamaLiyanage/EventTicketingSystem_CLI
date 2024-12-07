@@ -1,0 +1,844 @@
+Dec 07, 2024 10:47:55 AM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Dec 07, 2024 10:48:19 AM SystemConfiguration loadFromFile
+INFO: Configuration loaded from file: system_configuration.json
+Dec 07, 2024 10:48:19 AM TicketingSystem main
+INFO: Loaded configuration from file successfully.
+Dec 07, 2024 10:48:19 AM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 20
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=1}
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=2}
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 2
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 1
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 2
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 1
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 2
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 1
+Dec 07, 2024 10:48:27 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 0
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 0
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 2 added ticket: 1
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 1 added ticket: 2
+Dec 07, 2024 10:48:27 AM TicketingSystem monitorTicketingOperations
+WARNING: Warning: Ticket pool is empty!
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=3, vendorId=2}
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=4, vendorId=1}
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 3
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 2 added ticket: 3
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 3
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=5, vendorId=2}
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 3
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 4
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 1 added ticket: 4
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 4
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=6, vendorId=1}
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 4
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 5
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 2 added ticket: 5
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 5
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=7, vendorId=2}
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 5
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer is waiting for tickets...
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 6
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 1 added ticket: 6
+Dec 07, 2024 10:48:27 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 6
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=8, vendorId=1}
+Dec 07, 2024 10:48:27 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 6
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 7
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 2 added ticket: 7
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 8
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=9, vendorId=2}
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 1 added ticket: 8
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 9
+Dec 07, 2024 10:48:27 AM Ticket <init>
+INFO: Ticket created: Ticket{id=10, vendorId=1}
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 2 added ticket: 9
+Dec 07, 2024 10:48:27 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 10
+Dec 07, 2024 10:48:27 AM Vendor run
+INFO: Vendor 1 added ticket: 10
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=11, vendorId=2}
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 11
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 2 added ticket: 11
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=12, vendorId=1}
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=13, vendorId=2}
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 12
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 1 added ticket: 12
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 13
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=14, vendorId=1}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 2 added ticket: 13
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 14
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=15, vendorId=2}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 1 added ticket: 14
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 15
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=16, vendorId=1}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 2 added ticket: 15
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 16
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=17, vendorId=2}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 1 added ticket: 16
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 17
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=18, vendorId=1}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 2 added ticket: 17
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 18
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=19, vendorId=2}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 1 added ticket: 18
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 19
+Dec 07, 2024 10:48:28 AM Ticket <init>
+INFO: Ticket created: Ticket{id=20, vendorId=1}
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 2 added ticket: 19
+Dec 07, 2024 10:48:28 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 20
+Dec 07, 2024 10:48:28 AM Vendor run
+INFO: Vendor 1 added ticket: 20
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 7
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 7
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 8
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 8
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 9
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 9
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 10
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 10
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 11
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 11
+Dec 07, 2024 10:48:29 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 12
+Dec 07, 2024 10:48:29 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 12
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=22, vendorId=1}
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=21, vendorId=2}
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 22
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 1 added ticket: 22
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 21
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=23, vendorId=1}
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 2 added ticket: 21
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 23
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=24, vendorId=2}
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 1 added ticket: 23
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 24
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=25, vendorId=1}
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 2 added ticket: 24
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=26, vendorId=2}
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 25
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 1 added ticket: 25
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 26
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=27, vendorId=1}
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 2 added ticket: 26
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=28, vendorId=2}
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 27
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 1 added ticket: 27
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 28
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=29, vendorId=1}
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 2 added ticket: 28
+Dec 07, 2024 10:48:29 AM Ticket <init>
+INFO: Ticket created: Ticket{id=30, vendorId=2}
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 29
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 1 added ticket: 29
+Dec 07, 2024 10:48:29 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 30
+Dec 07, 2024 10:48:29 AM Vendor run
+INFO: Vendor 2 added ticket: 30
+Dec 07, 2024 10:48:30 AM Ticket <init>
+INFO: Ticket created: Ticket{id=31, vendorId=2}
+Dec 07, 2024 10:48:30 AM Ticket <init>
+INFO: Ticket created: Ticket{id=32, vendorId=1}
+Dec 07, 2024 10:48:30 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 31
+Dec 07, 2024 10:48:30 AM Vendor run
+INFO: Vendor 2 added ticket: 31
+Dec 07, 2024 10:48:30 AM Ticket <init>
+INFO: Ticket created: Ticket{id=33, vendorId=2}
+Dec 07, 2024 10:48:30 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 32
+Dec 07, 2024 10:48:30 AM Vendor run
+INFO: Vendor 1 added ticket: 32
+Dec 07, 2024 10:48:30 AM Ticket <init>
+INFO: Ticket created: Ticket{id=34, vendorId=1}
+Dec 07, 2024 10:48:30 AM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 10:48:30 AM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 13
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 33
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 13
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 2 added ticket: 33
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 14
+Dec 07, 2024 10:48:31 AM Ticket <init>
+INFO: Ticket created: Ticket{id=35, vendorId=2}
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 14
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 15
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 15
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 16
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 3 successfully purchased ticket ID 16
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 35
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 2 added ticket: 35
+Dec 07, 2024 10:48:31 AM Ticket <init>
+INFO: Ticket created: Ticket{id=36, vendorId=2}
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 34
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 1 added ticket: 34
+Dec 07, 2024 10:48:31 AM Ticket <init>
+INFO: Ticket created: Ticket{id=37, vendorId=1}
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 17
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 2 successfully purchased ticket ID 17
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 37
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 1 added ticket: 37
+Dec 07, 2024 10:48:31 AM Ticket <init>
+INFO: Ticket created: Ticket{id=38, vendorId=1}
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 38
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 1 added ticket: 38
+Dec 07, 2024 10:48:31 AM Ticket <init>
+INFO: Ticket created: Ticket{id=39, vendorId=1}
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 10:48:31 AM TicketPool retrieveTicket
+INFO: Customer retrieved ticket ID 18
+Dec 07, 2024 10:48:31 AM Customer run
+INFO: Customer 1 successfully purchased ticket ID 18
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 39
+Dec 07, 2024 10:48:31 AM Vendor run
+INFO: Vendor 1 added ticket: 39
+Dec 07, 2024 10:48:31 AM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 10:48:32 AM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 10:48:32 AM Vendor run
+INFO: Vendor 2 added ticket: 36
+Dec 07, 2024 10:48:32 AM Customer run
+WARNING: Customer 1 was interrupted.
+Dec 07, 2024 10:48:32 AM Customer run
+WARNING: Customer 2 was interrupted.
+Dec 07, 2024 10:48:32 AM Vendor run
+WARNING: Vendor 1 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 10:48:32 AM Customer run
+WARNING: Customer 3 was interrupted.
+Dec 07, 2024 10:48:32 AM Ticket <init>
+INFO: Ticket created: Ticket{id=40, vendorId=2}
+Dec 07, 2024 10:48:32 AM Customer run
+INFO: Customer 1 has finished all attempts.
+Dec 07, 2024 10:48:32 AM Customer run
+INFO: Customer 2 has finished all attempts.
+Dec 07, 2024 10:48:32 AM Customer run
+INFO: Customer 3 has finished all attempts.
+Dec 07, 2024 10:48:32 AM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 10:48:32 AM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 10:48:32 AM Vendor run
+INFO: Vendor 2 added ticket: 40
+Dec 07, 2024 10:48:32 AM Vendor run
+WARNING: Vendor 2 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 10:48:32 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:32 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:48:32 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:32 AM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: STOP
+Dec 07, 2024 10:48:37 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:37 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:48:42 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:42 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:48:47 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:47 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:48:52 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:52 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:48:57 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:48:57 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:02 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:02 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:07 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:07 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:12 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:12 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:17 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:17 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:22 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:22 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:27 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:27 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:49:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:49:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:50:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:50:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:51:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:51:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:52:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:52:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:53:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:53:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:54:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:54:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:55:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:55:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:56:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:56:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:18 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:18 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:23 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:23 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:28 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:28 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:33 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:33 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:38 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:38 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:43 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:43 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:48 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:48 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:53 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:53 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:57:58 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:57:58 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:58:03 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:58:03 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:58:08 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:58:08 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 10:58:13 AM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 10:58:13 AM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20

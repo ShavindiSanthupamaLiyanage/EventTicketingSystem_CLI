@@ -1,0 +1,18 @@
+Dec 07, 2024 7:52:55 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Dec 07, 2024 7:53:07 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Dec 07, 2024 7:53:27 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Dec 07, 2024 7:53:27 PM SystemConfiguration initializeConfiguration
+INFO: Configuration saved to the database.
+Dec 07, 2024 7:53:27 PM SystemConfiguration saveToFile
+INFO: Configuration saved to JSON file: system_configuration.json
+Dec 07, 2024 7:53:27 PM SystemConfiguration initializeConfiguration
+INFO: System configuration serialized to file successfully.
+Dec 07, 2024 7:53:27 PM FileConfiguration saveConfigurationToFile
+INFO: Configuration saved to file: configurations/System_Configuration_2024-12-07_19-53-27.txt
+Dec 07, 2024 7:53:27 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Dec 07, 2024 7:53:27 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 20

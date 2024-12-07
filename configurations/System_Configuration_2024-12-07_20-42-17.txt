@@ -1,0 +1,8 @@
+System Configuration Details:
+-----------------------------
+Total No.of Tickets Per Vendor: 80
+Ticket Release Rate: 5
+Customer Retrieval Rate: 2
+Max Ticket Capacity: 20
+Number of Vendors: 6
+Number of Customers: 3

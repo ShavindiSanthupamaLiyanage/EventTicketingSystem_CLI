@@ -19,10 +19,10 @@ public class Customer extends LoggerConfiguration implements Runnable {
 
                 // Attempt to retrieve the specified number of tickets
                 for (int i = 0; i < ticketsPerRetrieval; i++) {
-                    Ticket ticket = ticketPool.retrieveTicket();
+                    Ticket ticket = ticketPool.retrieveTicket(customerId);
                     if (ticket != null) {
                         ticketsRetrieved = true;
-                        System.out.printf("Customer %d successfully purchased ticket ID %d%n", customerId, ticket.getId());
+                        //System.out.printf("Customer %d successfully purchased ticket ID %d%n", customerId, ticket.getId());
                         logger.info("Customer " + customerId + " successfully purchased ticket ID " + ticket.getId());
                     } else {
                         // No tickets available or all tickets have been produced

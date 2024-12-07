@@ -128,14 +128,16 @@
 
 
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.*;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class SystemConfiguration extends LoggerConfiguration implements Serializable {
-    private static final long serialVersionUID = 1L; // For versioning the serialized object
+public class SystemConfiguration extends LoggerConfiguration{
 
     private int totalTickets;
     private int ticketReleaseRate;
@@ -160,7 +162,8 @@ public class SystemConfiguration extends LoggerConfiguration implements Serializ
         this.numCustomers = getValidInput(scanner, "Enter number of customers :", 1, Integer.MAX_VALUE);
 
         logger.info("System configuration initialized successfully.");
-        System.out.println("System configuration initialized successfully.");
+        System.out.print(" \n" +
+                         "System configuration initialized successfully.");
 
         saveToDatabase();
         logger.info("Configuration saved to the database.");
@@ -209,15 +212,27 @@ public class SystemConfiguration extends LoggerConfiguration implements Serializ
         }
     }
 
+//    public void saveToFile(String fileName) {
+//        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
+//            oos.writeObject(this);
+//            logger.info("Configuration saved to file: " + fileName);
+//        } catch (IOException e) {
+//            logger.severe("Error saving configuration to file: " + e.getMessage());
+//            e.printStackTrace();
+//        }
+//    }
+
     public void saveToFile(String fileName) {
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
-            oos.writeObject(this);
-            logger.info("Configuration saved to file: " + fileName);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try (FileWriter writer = new FileWriter(fileName)) {
+            gson.toJson(this, writer);
+            logger.info("Configuration saved to JSON file: " + fileName);
         } catch (IOException e) {
-            logger.severe("Error saving configuration to file: " + e.getMessage());
+            logger.severe("Error saving configuration to JSON file: " + e.getMessage());
             e.printStackTrace();
         }
     }
+
 
 //    public static SystemConfiguration loadFromFile(String fileName) {
 //        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
@@ -241,19 +256,33 @@ public class SystemConfiguration extends LoggerConfiguration implements Serializ
 //    }
 
     // Load the configuration object from a file
+//    public static SystemConfiguration loadFromFile(String fileName) {
+//        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
+//            SystemConfiguration config = (SystemConfiguration) ois.readObject();
+//            logger.info("Configuration loaded from file: " + fileName);
+//            return config;
+//        } catch (FileNotFoundException e) {
+//            logger.warning("Configuration file not found: " + fileName);
+//        } catch (IOException | ClassNotFoundException e) {
+//            logger.severe("Error loading configuration from file: " + e.getMessage());
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
+
+    // Load the configuration object from a file
     public static SystemConfiguration loadFromFile(String fileName) {
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
-            SystemConfiguration config = (SystemConfiguration) ois.readObject();
+        Gson gson = new Gson();
+        try (FileReader reader = new FileReader(fileName)) {
             logger.info("Configuration loaded from file: " + fileName);
-            return config;
-        } catch (FileNotFoundException e) {
-            logger.warning("Configuration file not found: " + fileName);
-        } catch (IOException | ClassNotFoundException e) {
-            logger.severe("Error loading configuration from file: " + e.getMessage());
+            return gson.fromJson(reader, SystemConfiguration.class);
+        } catch (IOException e) {
+            logger.severe("Error loading configuration from JSON file: " + e.getMessage());
             e.printStackTrace();
+            return null;
         }
-        return null;
     }
+
 
 
     // Getter methods

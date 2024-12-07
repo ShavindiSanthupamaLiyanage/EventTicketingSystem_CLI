@@ -162,6 +162,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+
 public class TicketingSystem extends LoggerConfiguration {
     private static final AtomicBoolean isRunning = new AtomicBoolean(false);
     private static ExecutorService vendorService;
@@ -169,7 +170,7 @@ public class TicketingSystem extends LoggerConfiguration {
     private static volatile boolean isMonitoring = true; // Flag to control monitoring thread
 
     public static void main(String[] args) {
-        String message = "Welcome to the Ticketing System CLI";
+        String message = "Welcome to the Real Time Event Ticketing System";
         Logo.printBoxedMessage(message);
 
         logger.info("Starting the Ticketing System CLI");
@@ -180,7 +181,19 @@ public class TicketingSystem extends LoggerConfiguration {
 
         while (true) {
             // Present the choices
-            System.out.println("Do you want to (1) Load existing configuration or (2) Reconfigure the system? (0 to exit)");
+//            System.out.println("Do you want to (1) Load existing configuration or (2) Reconfigure the system? (0 to exit)");
+//            System.out.println("Configuration Settings");
+//            System.out.println("Enter 1 - Load existing configuration");
+//            System.out.println("Enter 2 - Reconfigure existing configuration");
+//            System.out.println("Enter 0 - Exit");
+            System.out.print(
+                    "  \n" +
+                    "         * Configuration Settings *\n" +
+                            "Enter 1 - Load existing configuration\n" +
+                            "Enter 2 - Reconfigure existing configuration\n" +
+                            "Enter 0 - Exit\n" +
+                            "Enter your choice : "
+            );
 
             String choice = scanner.nextLine().trim();
 
@@ -206,7 +219,7 @@ public class TicketingSystem extends LoggerConfiguration {
             } else if ("0".equals(choice)) {
                 // Exit the system
                 System.out.println("Exiting the system...");
-                logger.info("User exited the system.");
+                logger.info("User exited from the system.");
                 return; // Exits the program
             } else {
                 // Invalid choice
@@ -226,7 +239,15 @@ public class TicketingSystem extends LoggerConfiguration {
 
         while (true) {
             if (!isRunning.get()) {
-                System.out.println("Enter '1' to START ticket handling, '2' to PAUSE, or '0' to EXIT:");
+                System.out.print(
+                        "  \n" +
+                                "         * Do you want to run the application? *\n" +
+                                "Enter 1 - START\n" +
+                                "Enter 2 - PAUSE\n" +
+                                "Enter 0 - Exit\n" +
+                                "Enter your choice : "
+                );
+
             }
 
             String command = scanner.nextLine().trim().toLowerCase();
@@ -330,7 +351,7 @@ public class TicketingSystem extends LoggerConfiguration {
                 System.out.println("Monitoring Ticket Pool: Current Size = " + currentSize);
 
                 if (currentSize == 0) {
-                    logger.warning("Warning: Ticket pool is empty!");
+                    logger.warning("Ticket pool is empty!");
                     System.out.println("Warning: Ticket pool is empty!");
                 }
 

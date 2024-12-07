@@ -1,0 +1,8 @@
+Dec 07, 2024 7:39:29 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Dec 07, 2024 7:39:43 PM SystemConfiguration loadFromFile
+INFO: Configuration loaded from file: system_configuration.json
+Dec 07, 2024 7:39:43 PM TicketingSystem main
+INFO: Loaded configuration from file successfully.
+Dec 07, 2024 7:39:43 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 7

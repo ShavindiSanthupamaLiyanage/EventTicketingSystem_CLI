@@ -33,7 +33,7 @@ public class TicketPool extends LoggerConfiguration {
 
         tickets.add(ticket);
         totalTicketsProduced++;
-//        System.out.println("Vendor " + vendorId + " added ticket ID " + ticket.getId());
+        System.out.println("Vendor " + vendorId + " released ticket ID " + ticket.getId());
         logger.info("Vendor " + vendorId + " added ticket ID " + ticket.getId());
 
 //        updateTicketStatus(); // Update the status table
@@ -41,7 +41,7 @@ public class TicketPool extends LoggerConfiguration {
     }
 
     // Retrieves a ticket from the pool for a customer
-    public synchronized Ticket retrieveTicket() {
+    public synchronized Ticket retrieveTicket(int customerId) {
         while (tickets.isEmpty()) {
             System.out.println("No tickets available. Customer is waiting...");
             logger.info("Customer is waiting for tickets...");
@@ -56,8 +56,10 @@ public class TicketPool extends LoggerConfiguration {
 
         Ticket ticket = tickets.remove(0);
         totalTicketsRetrieved++;
-        System.out.println("Customer retrieved ticket ID " + ticket.getId());
-        logger.info("Customer retrieved ticket ID " + ticket.getId());
+//        System.out.println("Customer retrieved ticket ID " + ticket.getId());
+//        logger.info("Customer retrieved ticket ID " + ticket.getId());
+        System.out.println("Customer " + customerId + " retrieved ticket ID " + ticket.getId());
+        logger.info("Customer " + customerId + " retrieved ticket ID " + ticket.getId());
 
 //        updateTicketStatus(); // Update the status table
         notifyAll(); // Notify any waiting vendors
@@ -106,6 +108,7 @@ public class TicketPool extends LoggerConfiguration {
                 + "totalTicketsPurchased = VALUES(totalTicketsPurchased), "
                 + "totalTicketsRemaining = VALUES(totalTicketsRemaining), "
                 + "systemStatus = VALUES(systemStatus)";
+
 
         try (Connection connection = DbConfiguration.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(query)) {

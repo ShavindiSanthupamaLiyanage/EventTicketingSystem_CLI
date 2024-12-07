@@ -1,0 +1,3232 @@
+Dec 07, 2024 8:54:17 PM TicketingSystem main
+INFO: Starting the Ticketing System CLI
+Dec 07, 2024 8:54:50 PM SystemConfiguration initializeConfiguration
+INFO: Initializing system configuration...
+Dec 07, 2024 8:54:55 PM SystemConfiguration initializeConfiguration
+INFO: System configuration initialized successfully.
+Dec 07, 2024 8:54:56 PM SystemConfiguration initializeConfiguration
+INFO: Configuration saved to the database.
+Dec 07, 2024 8:54:56 PM SystemConfiguration saveToFile
+INFO: Configuration saved to JSON file: system_configuration.json
+Dec 07, 2024 8:54:56 PM SystemConfiguration initializeConfiguration
+INFO: System configuration serialized to file successfully.
+Dec 07, 2024 8:54:56 PM FileConfiguration saveConfigurationToFile
+INFO: Configuration saved to file: configurations/System_Configuration_2024-12-07_20-54-56.txt
+Dec 07, 2024 8:54:56 PM SystemConfiguration initializeConfiguration
+INFO: System configuration saved to file successfully.
+Dec 07, 2024 8:54:56 PM TicketPool <init>
+INFO: Ticket pool initialized with maxCapacity: 20
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=10, vendorId=8}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=2, vendorId=6}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=15, vendorId=16}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=18, vendorId=18}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=11, vendorId=11}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=7, vendorId=2}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=4, vendorId=3}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=3, vendorId=5}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=17, vendorId=17}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=13, vendorId=10}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=8, vendorId=1}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=12, vendorId=13}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=9, vendorId=12}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=20, vendorId=20}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=5, vendorId=9}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=14, vendorId=14}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=16, vendorId=15}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=6, vendorId=4}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=1, vendorId=7}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=19, vendorId=19}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 8 added ticket ID 10
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 19 added ticket ID 19
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 8 added ticket: 10
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=21, vendorId=8}
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 19 added ticket: 19
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=22, vendorId=19}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 7 added ticket ID 1
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 7 added ticket: 1
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=23, vendorId=7}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 4 added ticket ID 6
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 4 added ticket: 6
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=24, vendorId=4}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 15 added ticket ID 16
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 15 added ticket: 16
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=25, vendorId=15}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 14 added ticket ID 14
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 14 added ticket: 14
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=26, vendorId=14}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 9 added ticket ID 5
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 9 added ticket: 5
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=27, vendorId=9}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 20 added ticket ID 20
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 20 added ticket: 20
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 12 added ticket ID 9
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 12 added ticket: 9
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=28, vendorId=20}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 13 added ticket ID 12
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 13 added ticket: 12
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=30, vendorId=13}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=29, vendorId=12}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 1 added ticket ID 8
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 1 added ticket: 8
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=31, vendorId=1}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 10 added ticket ID 13
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 10 added ticket: 13
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=32, vendorId=10}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 17 added ticket ID 17
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 17 added ticket: 17
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=33, vendorId=17}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 5 added ticket ID 3
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 5 added ticket: 3
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=34, vendorId=5}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 3 added ticket ID 4
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 3 added ticket: 4
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=35, vendorId=3}
+Dec 07, 2024 8:54:58 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 15
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 2 added ticket ID 7
+Dec 07, 2024 8:54:58 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 15
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 2 added ticket: 7
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=36, vendorId=2}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 11 added ticket ID 11
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 11 added ticket: 11
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 18 added ticket ID 18
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 18 added ticket: 18
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=38, vendorId=18}
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=37, vendorId=11}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 16 added ticket ID 15
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 16 added ticket: 15
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 6 added ticket ID 2
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=39, vendorId=16}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM Vendor run
+INFO: Vendor 6 added ticket: 2
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM Ticket <init>
+INFO: Ticket created: Ticket{id=40, vendorId=6}
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:54:58 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:03 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 8:55:03 PM TicketingSystem monitorTicketingOperations
+INFO: Monitoring Ticket Pool: Current Size = 20
+Dec 07, 2024 8:55:06 PM TicketingSystem controlSystem
+INFO: Exiting the Ticketing System CLI
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 29
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=41, vendorId=12}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 23
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=42, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 21
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=43, vendorId=8}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 27
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 26
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=44, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=45, vendorId=14}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 35
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=46, vendorId=3}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 31
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=47, vendorId=1}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 28
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=48, vendorId=20}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 25
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=49, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 22
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=50, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 24
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=51, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 38
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=52, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 32
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=53, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 36
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 37
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=55, vendorId=11}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=54, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 34
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 33
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=57, vendorId=17}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=56, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 40
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=58, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 39
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=59, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 30
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 59
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=60, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 58
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=61, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 56
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=63, vendorId=5}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=62, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 57
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 54
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=65, vendorId=2}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=64, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 55
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=66, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 53
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=67, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 52
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 51
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=68, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 50
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=70, vendorId=19}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=69, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 49
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=71, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 48
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=72, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 47
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 46
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=73, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=74, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 45
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 44
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=76, vendorId=9}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=75, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 43
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=77, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 42
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=78, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 41
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 78
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=79, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=80, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 77
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 75
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=82, vendorId=14}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=81, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 76
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 74
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=84, vendorId=3}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=83, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 73
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=85, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 72
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=86, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 71
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 69
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=88, vendorId=4}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=87, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 70
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=89, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 68
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=90, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 67
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=91, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 66
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=92, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 64
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 65
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=93, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 62
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=94, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=95, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 63
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=96, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 61
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=97, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 60
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 97
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=98, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=99, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 96
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=100, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 95
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=101, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 94
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=102, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 93
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=103, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 92
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=104, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 91
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=105, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 90
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=106, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 89
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 87
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=108, vendorId=15}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=107, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 88
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=109, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 86
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=110, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 85
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=111, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 83
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=112, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 84
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=113, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 81
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=114, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 82
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=115, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 80
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 79
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=117, vendorId=12}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=116, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 115
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=118, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 114
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=119, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 113
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=120, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 112
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=121, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 111
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 110
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=122, vendorId=1}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=123, vendorId=20}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 109
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=124, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 107
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=125, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 108
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=126, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 106
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 105
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=128, vendorId=10}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=127, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 104
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=129, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 103
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=130, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 102
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=131, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 101
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 100
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=133, vendorId=5}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=132, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 99
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=134, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 98
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=135, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 134
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=136, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 132
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=137, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 133
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=138, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 131
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 130
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=139, vendorId=2}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=140, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 129
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=141, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 127
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=142, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 128
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=143, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 126
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=144, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 125
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=145, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 124
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=146, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 146
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=147, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 123
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=148, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 122
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=149, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 121
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=150, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 120
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=151, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 119
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=152, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 118
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=153, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 116
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=154, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 117
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=155, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 154
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=156, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 153
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=157, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 152
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=158, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 151
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=159, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 150
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=160, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 149
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=161, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 148
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=162, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 147
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 145
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=163, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=164, vendorId=19}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 144
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 143
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=165, vendorId=15}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=166, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 142
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=167, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 141
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 140
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=169, vendorId=17}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=168, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 139
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=170, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 138
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=171, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 137
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=172, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 136
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=173, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 135
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=174, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 173
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=175, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 172
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 171
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=176, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=177, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 170
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 168
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=179, vendorId=11}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=178, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 169
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=180, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 167
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 166
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=182, vendorId=10}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=181, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 165
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 164
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=184, vendorId=19}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=183, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 163
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=185, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 162
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 161
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=187, vendorId=1}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=186, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 160
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=188, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 159
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=189, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 158
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=190, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 157
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=191, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 156
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=192, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 155
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=193, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 192
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=194, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 191
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=195, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 190
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=196, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 189
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 188
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=197, vendorId=3}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=198, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 186
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 187
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=199, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=200, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 185
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=201, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 183
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=202, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 184
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=203, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 181
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 182
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=204, vendorId=18}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=205, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 180
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=206, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 178
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=207, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 179
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=208, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 177
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=209, vendorId=5}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 176
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=210, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 175
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=211, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 174
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=212, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 211
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=213, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 210
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 209
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=215, vendorId=5}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=214, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 208
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=216, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 207
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=217, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 206
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=218, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 205
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=219, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 204
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=220, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 203
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=221, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 202
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=222, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 201
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=223, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 200
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=224, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 199
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=225, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 198
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=226, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 197
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=227, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 196
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=228, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 195
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=229, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 194
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=230, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 193
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=231, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 230
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=232, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 229
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=233, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 228
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=234, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 227
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=235, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 226
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=236, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 225
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=237, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 224
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=238, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 223
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=239, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 222
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 221
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=240, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=241, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 220
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=242, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 219
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=243, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 218
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=244, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 217
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=245, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 216
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=246, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 214
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=247, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 215
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=248, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 213
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=249, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 212
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=250, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 249
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=251, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 248
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=252, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 247
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=253, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 246
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 245
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=254, vendorId=11}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=255, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 244
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=256, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 243
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=257, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 242
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=258, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 241
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=259, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 240
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=260, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 239
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=261, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 238
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=262, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 237
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=263, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 236
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=264, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 235
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=265, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 234
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=266, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 233
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=267, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 232
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=268, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 231
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=269, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 268
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=270, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 267
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=271, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 266
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=272, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 265
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=273, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 264
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=274, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 263
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=275, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 262
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=276, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 261
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=277, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 260
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=278, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 259
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 258
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=280, vendorId=18}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=279, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 257
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=281, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 256
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=282, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 255
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=283, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 254
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=284, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 253
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=285, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 252
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=286, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 251
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=287, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 250
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=288, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 287
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=289, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 286
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=290, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 285
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=291, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 284
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=292, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 283
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=293, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 282
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=294, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 281
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=295, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 279
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=296, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 280
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=297, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 278
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=298, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 277
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=299, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 276
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=300, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 275
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=301, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 274
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=302, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 273
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 272
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=304, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=303, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 271
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=305, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 270
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=306, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 269
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=307, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 306
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=308, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 305
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=309, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 303
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=310, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 304
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=311, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 302
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=312, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 301
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=313, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 300
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=314, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 299
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=315, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 298
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=316, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 297
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=317, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 296
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=318, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 295
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 294
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=320, vendorId=17}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=319, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 293
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=321, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 292
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=322, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 291
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=323, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 290
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=324, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 289
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=325, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 288
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 325
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=327, vendorId=16}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=326, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 324
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=328, vendorId=5}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 323
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=329, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 322
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=330, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 321
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=331, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 319
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=332, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 320
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=333, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 318
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=334, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 317
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=335, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 316
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=336, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 315
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=337, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 314
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=338, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 313
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=339, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 312
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=340, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 311
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=341, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 310
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=342, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 309
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=343, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 343
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=344, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 344
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=345, vendorId=14}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 308
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=346, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 307
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=347, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 346
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=348, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 14 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 14 added ticket: 345
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 342
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=349, vendorId=3}
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 14 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 341
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=350, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 340
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=351, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 339
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=352, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 338
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=353, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 337
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=354, vendorId=4}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 336
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=355, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 335
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=356, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 334
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=357, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 333
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=358, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 332
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=359, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 331
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=360, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 330
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=361, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 329
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=362, vendorId=6}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 328
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=363, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 326
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=364, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 327
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=365, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 364
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 363
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=366, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 362
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=368, vendorId=6}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=367, vendorId=5}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 361
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=369, vendorId=11}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 360
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=370, vendorId=2}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 359
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=371, vendorId=10}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 358
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=372, vendorId=17}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 17 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 17 added ticket: 372
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 17 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 357
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=373, vendorId=19}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 356
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=374, vendorId=18}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 355
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 4 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=375, vendorId=15}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 4 added ticket: 354
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 4 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 353
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=376, vendorId=1}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 352
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=377, vendorId=20}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 351
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=378, vendorId=9}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 350
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=379, vendorId=8}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 349
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=380, vendorId=3}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 348
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 347
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=382, vendorId=12}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=381, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 3 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 3 added ticket: 380
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 8 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 8 added ticket: 379
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 3 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 9 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 8 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 9 added ticket: 378
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 20 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 9 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 20 added ticket: 377
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 1 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 20 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 1 added ticket: 376
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 15 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 1 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 15 added ticket: 375
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 18 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 15 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 18 added ticket: 374
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 18 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 19 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 19 added ticket: 373
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 10 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 10 added ticket: 371
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 19 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 10 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 2 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 2 added ticket: 370
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 11 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 2 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 11 added ticket: 369
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 5 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 11 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 5 added ticket: 367
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 6 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 5 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 6 added ticket: 368
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 6 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 366
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=383, vendorId=13}
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 365
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=384, vendorId=16}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 381
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=385, vendorId=7}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 382
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=386, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 7 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 7 added ticket: 385
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 16 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 7 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 16 added ticket: 384
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 16 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 383
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=387, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 386
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=388, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 387
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=389, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 388
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=390, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 389
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=391, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 390
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=392, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 391
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=393, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 392
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=394, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 393
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 394
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=396, vendorId=12}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=395, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 396
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 395
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=397, vendorId=12}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=398, vendorId=13}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 397
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 398
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=400, vendorId=13}
+Dec 07, 2024 8:55:06 PM Ticket <init>
+INFO: Ticket created: Ticket{id=399, vendorId=12}
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 13 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 13 added ticket: 400
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 13 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+INFO: Vendor 12 is waiting to add tickets...
+Dec 07, 2024 8:55:06 PM TicketPool addTicket
+SEVERE: Vendor was interrupted while waiting to add tickets.
+Dec 07, 2024 8:55:06 PM Vendor run
+INFO: Vendor 12 added ticket: 399
+Dec 07, 2024 8:55:06 PM Vendor run
+WARNING: Vendor 12 was unable to release tickets due to high demand. Please wait for the next ticket release cycle.
+Dec 07, 2024 8:55:06 PM TicketPool getCurrentSize
+INFO: Current ticket pool size: 20
+Dec 07, 2024 8:55:06 PM TicketPool updateTicketStatusOnCommand
+INFO: TicketStatus table updated successfully with system status: EXIT
