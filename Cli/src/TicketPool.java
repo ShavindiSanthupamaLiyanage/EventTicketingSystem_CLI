@@ -11,13 +11,24 @@ public class TicketPool extends LoggerConfiguration {
     private int totalTicketsProduced = 0; // Count of total tickets produced
     private int totalTicketsRetrieved = 0; // Count of total tickets retrieved
 
+    /**
+     * Constructs a TicketPool with a specified maximum capacity.
+     *
+     * @param maxCapacity The maximum number of tickets the pool can hold at any time.
+     */
     public TicketPool(int maxCapacity) {
         this.maxCapacity = maxCapacity;
         this.tickets = Collections.synchronizedList(new LinkedList<>()); // Thread-safe list
         logger.info("Ticket pool initialized with maxCapacity: " + maxCapacity);
     }
 
-    // Adds a ticket to the pool, respecting capacity constraints
+
+    /**
+     * Adds a ticket to the pool, blocking if the pool is at maximum capacity.
+     *
+     * @param ticket   The {@link Ticket} to be added.
+     * @param vendorId The ID of the vendor adding the ticket.
+     */
     public synchronized void addTicket(Ticket ticket, int vendorId) {
         while (tickets.size() >= maxCapacity) {
             System.out.println("Ticket pool is at max capacity. Vendor " + vendorId + " is waiting to add tickets...");
@@ -36,11 +47,15 @@ public class TicketPool extends LoggerConfiguration {
         System.out.println("Vendor " + vendorId + " released ticket ID " + ticket.getId());
         logger.info("Vendor " + vendorId + " added ticket ID " + ticket.getId());
 
-//        updateTicketStatus(); // Update the status table
         notifyAll(); // Notify any waiting consumers
     }
 
-    // Retrieves a ticket from the pool for a customer
+    /**
+     * Retrieves a ticket from the pool for a customer, blocking if the pool is empty.
+     *
+     * @param customerId The ID of the customer retrieving the ticket.
+     * @return The retrieved {@link Ticket}, or null if the thread is interrupted.
+     */
     public synchronized Ticket retrieveTicket(int customerId) {
         while (tickets.isEmpty()) {
             System.out.println("No tickets available. Customer is waiting...");
@@ -56,12 +71,10 @@ public class TicketPool extends LoggerConfiguration {
 
         Ticket ticket = tickets.remove(0);
         totalTicketsRetrieved++;
-//        System.out.println("Customer retrieved ticket ID " + ticket.getId());
-//        logger.info("Customer retrieved ticket ID " + ticket.getId());
+
         System.out.println("Customer " + customerId + " retrieved ticket ID " + ticket.getId());
         logger.info("Customer " + customerId + " retrieved ticket ID " + ticket.getId());
 
-//        updateTicketStatus(); // Update the status table
         notifyAll(); // Notify any waiting vendors
         return ticket;
     }
@@ -73,33 +86,12 @@ public class TicketPool extends LoggerConfiguration {
         return size;
     }
 
-//    // Updates the TicketStatus table with real-time data
-//    public void updateTicketStatus() {
-//        String query = "INSERT INTO TicketStatus (totalTicketsReleased, totalTicketsPurchased, totalTicketsToBeReleased, totalTicketsRemaining) "
-//                + "VALUES (?, ?, ?, ?) "
-//                + "ON DUPLICATE KEY UPDATE "
-//                + "totalTicketsReleased = VALUES(totalTicketsReleased), "
-//                + "totalTicketsPurchased = VALUES(totalTicketsPurchased), "
-//                + "totalTicketsToBeReleased = VALUES(totalTicketsToBeReleased), "
-//                + "totalTicketsRemaining = VALUES(totalTicketsRemaining)";
-//
-//        try (Connection connection = DbConfiguration.getConnection();
-//             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
-//
-//            int totalTicketsToBeReleased = maxCapacity - getCurrentSize();
-//            preparedStatement.setInt(1, totalTicketsProduced);
-//            preparedStatement.setInt(2, totalTicketsRetrieved);
-//            preparedStatement.setInt(3, totalTicketsToBeReleased);
-//            preparedStatement.setInt(4, getCurrentSize());
-//
-//            preparedStatement.executeUpdate();
-//            logger.info("TicketStatus table updated successfully.");
-//        } catch (SQLException e) {
-//            logger.severe("Failed to update TicketStatus table: " + e.getMessage());
-//            e.printStackTrace();
-//        }
-//    }
-
+    /**
+     * Updates the ticket status in the database based on the current state of the pool.
+     * The status includes total tickets released, purchased, remaining, and the system's operational state.
+     *
+     * @param systemStatus The current status of the system (e.g., STOP or EXIT).
+     */
     public void updateTicketStatusOnCommand(String systemStatus) {
         String query = "INSERT INTO TicketStatus (totalTicketsReleased, totalTicketsPurchased, totalTicketsRemaining, systemStatus) "
                 + "VALUES (?, ?, ?, ?) "
@@ -108,7 +100,6 @@ public class TicketPool extends LoggerConfiguration {
                 + "totalTicketsPurchased = VALUES(totalTicketsPurchased), "
                 + "totalTicketsRemaining = VALUES(totalTicketsRemaining), "
                 + "systemStatus = VALUES(systemStatus)";
-
 
         try (Connection connection = DbConfiguration.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(query)) {
@@ -125,5 +116,4 @@ public class TicketPool extends LoggerConfiguration {
             e.printStackTrace();
         }
     }
-
 }

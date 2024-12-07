@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 
 public class FileConfiguration extends LoggerConfiguration{
 
-    // Folder for configuration files
+    // Folder for store configuration files
     private static final String CONFIG_DIR = "configurations";
 
     static {
@@ -17,7 +17,11 @@ public class FileConfiguration extends LoggerConfiguration{
         createDirectory(CONFIG_DIR);
     }
 
-    // Method to save configuration to the 'configurations' folder
+    /**
+     * Saves the provided system configuration to a timestamped file in the configurations directory.
+     *
+     * @param config The SystemConfiguration object containing the configuration details.
+     */
     public static void saveConfigurationToFile(SystemConfiguration config) {
         // Generate file name with current date and time
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
@@ -49,7 +53,11 @@ public class FileConfiguration extends LoggerConfiguration{
         }
     }
 
-    // Utility method to create directories if they do not exist
+    /**
+     * Creates a directory if it does not already exist.
+     *
+     * @param directoryName The name of the directory to create.
+     */
     private static void createDirectory(String directoryName) {
         Path path = Paths.get(directoryName);
         if (!Files.exists(path)) {

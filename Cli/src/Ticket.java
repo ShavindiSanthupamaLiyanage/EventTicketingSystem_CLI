@@ -13,14 +13,30 @@ public class Ticket extends LoggerConfiguration {
         logger.info("Ticket created: " + this); // Log ticket creation
     }
 
+    /**
+     * Retrieves the unique ID of this ticket.
+     *
+     * @return The unique ticket ID.
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * Retrieves the ID of the vendor who created this ticket.
+     *
+     * @return The vendor ID associated with this ticket.
+     */
     public int getVendorId() {
-        return vendorId; // Getter for vendorId
+        return vendorId;
     }
 
+    /**
+     * Returns a string representation of the Ticket object.
+     * Includes the ticket ID and associated vendor ID.
+     *
+     * @return A string describing this ticket.
+     */
     @Override
     public String toString() {
         return "Ticket{id=" + id + ", vendorId=" + vendorId + "}";
